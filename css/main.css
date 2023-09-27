@@ -1,0 +1,13 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --dark-blue: #28527A;
+    --dark-yellow: #F4D160;
+    --light-blue: #8AC4D0;
+    --light-yellow: #FBEEAC;
+}
+.img-tkb{
+    width: 800px;
+}
