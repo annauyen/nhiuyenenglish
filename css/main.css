@@ -89,3 +89,28 @@ body{
 .footer a:hover{
     color: var(--light-green);
 }
+
+.footer button{
+    margin-bottom: 5px;
+}
+
+.sign-in{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--purple);
+    margin: 15px;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 5px 5px 5px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in a:hover{
+    color: var(--light-green);
+}
