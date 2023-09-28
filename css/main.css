@@ -2,12 +2,90 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+h1,h2,h3,h4,h5{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, var(--purple), var(--light-green));
+}
+
+
 :root{
     --dark-blue: #28527A;
     --dark-yellow: #F4D160;
     --light-blue: #8AC4D0;
     --light-yellow: #FBEEAC;
+    --dark-purple: #1F2041;
+    --purple: #4B3F72;
+    --dark-green: #417B5A;
+    --light-green: #07f49e;
+
 }
 .img-tkb{
     width: 800px;
+}
+.heading{
+    font-family: 'Dela Gothic One', cursive;
+    color: var(--dark-purple);
+}
+
+.text-box{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 10px 10px 10px ;
+    background-color: white;
+}
+.text-box a{
+    text-decoration: none;
+}
+.text-box a:hover{
+    color: var(--light-green);
+}
+.img-avt{
+    width: 300px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.contact-info a:hover{
+    color: var(--light-green);
+}
+
+.contact-info{
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.footer{
+    background-color: var(--purple);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer a:hover{
+    color: var(--light-green);
 }
