@@ -98,7 +98,7 @@ body{
     padding: 15px;
     border-radius: 30px;
     background-color: var(--purple);
-    margin: 15px;
+    margin-top: 15px;
     text-align: center;
     width: fit-content;
     box-shadow: 5px 5px 5px ;
