@@ -2,6 +2,9 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 h1,h2,h3,h4,h5{
     font-family: 'Dela Gothic One', cursive;
     font-family: 'Montserrat', sans-serif;
@@ -45,6 +48,7 @@ body{
 }
 .text-box a{
     text-decoration: none;
+    color: var(--dark-purple);
 }
 .text-box a:hover{
     color: var(--light-green);
@@ -104,6 +108,8 @@ body{
     box-shadow: 5px 5px 5px ;
     margin-left: auto;
     margin-right: auto;
+    transition: width 2s;
+    transition-timing-function: linear;
 }
 
 .sign-in a{
@@ -113,4 +119,16 @@ body{
 
 .sign-in a:hover{
     color: var(--light-green);
+}
+
+.sign-in:hover{
+    width: 200px;
+}
+
+.img-classroom{
+    width: 500px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 30px;
 }
