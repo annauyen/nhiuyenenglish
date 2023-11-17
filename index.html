@@ -62,16 +62,18 @@
       <div class="row">
         <div class="col-sm-8">
           <h1></h1>
-          <h1 class="heading text-light">English Courses</h1>
+          <h1 class="heading text-light">English Courses with Nhi Uyen</h1>
           <div class="text-box">
             <h2 class="heading">Beginner Courses</h2>
 
-            <a href="#course_giaotiep"
-              ><h3>
+            <a href="#myModal" data-bs-toggle="modal" data-bs-target="#myModal"><h3>
                 <i class="fa-regular fa-square-caret-right"></i> Giao tiếp Căn
                 bản (12 tuần)
               </h3></a
             >
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+              Xem thêm
+            </button>
             <p>
               Lớp giao tiếp căn bản dành cho các học viên cần luyện kĩ năng giao
               tiếp hằng ngày. Ngoài ra, học viên còn được bổ sung kiến thức về
@@ -166,6 +168,7 @@
       <div class="row">
         <h2 class="heading text-center">Thông tin khai giảng tháng 12/2023</h2>
         <img class="img-fluid" alt="" src="./img/course info.png" style="width: 800px; margin-left: auto; margin-right: auto;">
+        <hr>
         <h2 class="heading text-center">Hình ảnh lớp học</h2>
         <div class="col-sm-6">
           <img
@@ -195,6 +198,32 @@
           marginwidth="0"
           >Đang tải…</iframe
         >
+      </div>
+    </div>
+
+    <!-- MODAL BOX KHÓA HỌC -->
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Thông tin lớp học</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img class="img-fluid" alt="" src="./img/course info.png" style="width: 800px; margin-left: auto; margin-right: auto;">
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
       </div>
     </div>
 
